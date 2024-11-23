@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bring Me The Horizon</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      body {
+        background-color: black;
+      }
+      @font-face {
+        font-family: "Marker Fat";
+        src: url("fonts/Marker Fat.otf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+      .scale {
+        transition: 0.5s;
+      }
+      .scale:hover {
+        transform: scale(1.2);
+      }
+      ul li {
+        display: inline;
+        color: white;
+        padding: 30px;
+        font-size: 35px;
+        font-family: "Marker Fat";
+      }
+      a {
+        color: #00000000;
+      }
+      .home {
+        width: 90px;
+      }
+      .cyb {
+        width: 400px;
+        margin-top: 40px;
+      }
+      .ss {
+        width: 400px;
+        margin-top: 40px;
+      }
+      .tah {
+        width: 400px;
+        margin-top: 40px;
+      }
+      .semp {
+        width: 400px;
+        margin-top: 5px;
+      }
+      .tts {
+        width: 400px;
+        margin-top: 5px;
+      }
+      .amo {
+        width: 400px;
+        margin-top: 5px;
+      }
+      .mtlt {
+        width: 400px;
+        margin-top: 5px;
+        padding-bottom: 20px;
+      }
+      .phsh {
+        width: 400px;
+        margin-top: 5px;
+        padding-bottom: 20px;
+      }
+      .ng {
+        width: 400px;
+        margin-top: 5px;
+        padding-bottom: 20px;
+      }
+      h1 {
+        writing-mode: vertical-lr;
+        float: right;
+        color: white;
+        font-size: 100px;
+        margin-top: -1050px;
+        font-family: "Marker Fat";
+        text-orientation: upright;
+        margin-right: 200px;
+      }
+      .acyb {
+        animation: acyb 1s alternate;
+        animation-direction: alternate;
+      }
+      @keyframes acyb {
+        0% {
+          scale: 0.5;
+          opacity: 0;
+        }
+        30% {
+          opacity: 0;
+          scale: 0.5;
+        }
+        100% {
+          scale: 1;
+        }
+      }
+      .ass {
+        animation: ass 1.2s alternate;
+        animation-direction: alternate;
+      }
+      @keyframes ass {
+        0% {
+          scale: 0.5;
+          opacity: 0;
+        }
+        35% {
+          opacity: 0;
+          scale: 0.5;
+        }
+        100% {
+          scale: 1;
+        }
+      }
+      .atah {
+        animation: atah 1.4s alternate;
+        animation-direction: alternate;
+      }
+      @keyframes atah {
+        0% {
+          scale: 0.5;
+          opacity: 0;
+        }
+        40% {
+          opacity: 0;
+          scale: 0.5;
+        }
+        100% {
+          scale: 1;
+        }
+      }
+      .asemp {
+        animation: asemp 1.6s alternate;
+        animation-direction: alternate;
+      }
+      @keyframes asemp {
+        0% {
+          scale: 0.5;
+          opacity: 0;
+        }
+        45% {
+          opacity: 0;
+          scale: 0.5;
+        }
+        100% {
+          scale: 1;
+        }
+      }
+      .atts {
+        animation: atts 1.8s alternate;
+        animation-direction: alternate;
+      }
+      @keyframes atts {
+        0% {
+          scale: 0.5;
+          opacity: 0;
+        }
+        50% {
+          opacity: 0;
+          scale: 0.5;
+        }
+        100% {
+          scale: 1;
+        }
+      }
+      .aamo {
+        animation: aamo 2s alternate;
+        animation-direction: alternate;
+      }
+      @keyframes aamo {
+        0% {
+          scale: 0.5;
+          opacity: 0;
+        }
+        55% {
+          opacity: 0;
+          scale: 0.5;
+        }
+        100% {
+          scale: 1;
+        }
+      }
+      .amtlt {
+        animation: amtlt 2.2s alternate;
+        animation-direction: alternate;
+      }
+      @keyframes amtlt {
+        0% {
+          scale: 0.5;
+          opacity: 0;
+        }
+        60% {
+          opacity: 0;
+          scale: 0.5;
+        }
+        100% {
+          scale: 1;
+        }
+      }
+      .aphsh {
+        animation: aphsh 2.4s alternate;
+        animation-direction: alternate;
+      }
+      @keyframes aphsh {
+        0% {
+          scale: 0.5;
+          opacity: 0;
+        }
+        65% {
+          opacity: 0;
+          scale: 0.5;
+        }
+        100% {
+          scale: 1;
+        }
+      }
+      .ang {
+        animation: ang 2.6s alternate;
+        animation-direction: alternate;
+      }
+      @keyframes ang {
+        0% {
+          scale: 0.5;
+          opacity: 0;
+        }
+        70% {
+          opacity: 0;
+          scale: 0.5;
+        }
+        100% {
+          scale: 1;
+        }
+      }
+      .nav {
+        animation: nav 0.8s alternate;
+        animation-direction: alternate;
+      }
+      @keyframes nav {
+        0% {
+          scale: 0.5;
+          opacity: 0;
+        }
+        30% {
+          opacity: 0;
+        }
+        100% {
+          scale: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="container text-center my-3" style="margin: 276px">
+        <ul>
+          <a href="index.html">
+            <img src="spirit.jpg" alt="home" class="home" />
+          </a>
+          <a href="members.html">
+            <li>members</li>
+          </a>
+          <a href="albums.html">
+            <li>albums</li>
+          </a>
+          <a href="the best.html">
+            <li>the best</li>
+          </a>
+        </ul>
+      </div>
+    </div>
+    <div class="container text-start" style="margin-right: 500px">
+      <a href="cyb.html">
+        <img src="cyb.png" alt="cyb" class="cyb scale acyb" />
+      </a>
+      <a href="suse.html">
+        <img src="ss.png" alt="ss" class="ss scale ass" />
+      </a>
+      <a href="tah.html">
+        <img src="tah.png" alt="tah" class="tah scale atah" />
+      </a>
+      <a href="sempiternal.html">
+        <img src="semp.jpg" alt="semp" class="semp scale asemp" />
+      </a>
+      <a href="tts.html">
+        <img src="tts.jpg" alt="tts" class="tts scale atts" />
+      </a>
+      <a href="amo.html">
+        <img src="amo.png" alt="amo" class="amo scale aamo" />
+      </a>
+      <a href="mtlt.html">
+        <img src="mtlt.jpg" alt="mtlt" class="mtlt scale amtlt" />
+      </a>
+      <a href="phsh.html">
+        <img src="phsh.png" alt="phsh" class="phsh scale aphsh" />
+      </a>
+      <a href="ng.html">
+        <img src="ng.png" alt="ng" class="ng scale ang" />
+      </a>
+    </div>
+    <h1>albums</h1>
+  </body>
+</html>

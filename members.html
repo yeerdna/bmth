@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bring Me The Horizon</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      body {
+        background-color: black;
+      }
+      @font-face {
+        font-family: "Marker Fat";
+        src: url("fonts/Marker Fat.otf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+      @font-face {
+        font-family: "OutrightHorrorRegular";
+        src: url("fonts/OutrightHorrorRegular.otf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+      ul li {
+        display: inline;
+        color: white;
+        padding: 30px;
+        font-size: 35px;
+        font-family: "Marker Fat";
+      }
+      a {
+        color: #00000000;
+      }
+      .home {
+        width: 90px;
+      }
+      img.ph {
+        width: 300px;
+        height: 375px;
+        margin-top: 30px;
+      }
+      .scale {
+        transition: 0.3s;
+      }
+      .scale:hover {
+        transform: scale(1.05);
+      }
+      p {
+        color: white;
+        font-family: "OutrightHorrorRegular";
+        font-size: 60px;
+      }
+      .nav {
+        animation: nav 0.8s alternate;
+        animation-direction: alternate;
+      }
+      @keyframes nav {
+        0% {
+          scale: 0.5;
+          opacity: 0;
+        }
+        30% {
+          opacity: 0;
+        }
+        100% {
+          scale: 1;
+        }
+      }
+      .oli {
+        animation: oli 1.3s alternate;
+        animation-direction: alternate;
+      }
+      @keyframes oli {
+        0% {
+          scale: 2;
+          opacity: 0;
+        }
+        30% {
+          opacity: 0;
+        }
+        100% {
+          scale: 1;
+        }
+      }
+      .lee {
+        animation: lee 1.3s alternate;
+        animation-direction: alternate;
+      }
+      @keyframes lee {
+        0% {
+          scale: 0.5;
+          opacity: 0;
+        }
+        30% {
+          opacity: 0;
+        }
+        100% {
+          scale: 1;
+        }
+      }
+      .txxt {
+        animation: txxt 1.5s alternate;
+        animation-direction: alternate;
+      }
+      @keyframes txxt {
+        0% {
+          opacity: 0;
+        }
+        40% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="container text-center my-3">
+        <ul>
+          <a href="index.html">
+            <img src="spirit.jpg" alt="home" class="home" />
+          </a>
+          <a href="members.html">
+            <li>members</li>
+          </a>
+          <a href="albums.html">
+            <li>albums</li>
+          </a>
+          <a href="the best.html">
+            <li>the best</li>
+          </a>
+        </ul>
+      </div>
+    </div>
+    <div class="container text-center">
+      <img
+        src="sykes.jpg"
+        alt="oli"
+        class="ph scale oli"
+        style="margin-right: 10px"
+      />
+      <img
+        src="lee.jpg"
+        alt="lee"
+        class="ph scale lee"
+        style="margin-right: 10px"
+      />
+      <img
+        src="matt.jpg"
+        alt="matt"
+        class="ph scale oli"
+        style="margin-right: 10px"
+      />
+      <img src="kmatt.jpg" alt="kean" class="ph scale lee" />
+    </div>
+    <div style="margin-left: 340px; padding-right: 1270px">
+      <p class="txxt">Oli Sykes</p>
+    </div>
+    <div style="margin-left: 670px; margin-top: -110px; padding-right: 970px">
+      <p class="txxt">Lee Malia</p>
+    </div>
+    <div style="margin-left: 940px; margin-top: -105px; padding-right: 613px">
+      <p class="txxt">Matt Nicholls</p>
+    </div>
+    <div style="margin-left: 1300px; margin-top: -105px; padding-right: 300px">
+      <p class="txxt">Matt Kean</p>
+    </div>
+  </body>
+</html>
